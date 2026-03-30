@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background: #f5f7fb;
+}
+
+/* 전체 화면 기준 */
+.page {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 질문 */
+#question {
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+/* 선택지 영역 */
+#answers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 선택지 버튼 */
+.option {
+  padding: 18px;
+  background: white;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+
+  font-size: 16px;
+  text-align: center;
+
+  /* 터치 최적화 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 눌렀을 때 */
+.option:active {
+  background: #6366f1;
+  color: white;
+  transform: scale(0.98);
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "text": "친구가 약속 시간에 늦었다",
+    "options": [
+      { "text": "괜찮아 이해함", "score": { "empathetic": 2, "aggressive": -1 } },
+      { "text": "이유를 물어본다", "score": { "logical": 2 } },
+      { "text": "별로 신경 안씀", "score": { "independent": 2 } },
+      { "text": "속으로 짜증남", "score": { "anxious": 2, "aggressive": 1 } }
+    ]
+  },
+  {
+    "text": "처음 보는 사람들과 같은 팀이 됐다",
+    "options": [
+      { "text": "먼저 말을 건다", "score": { "social": 2 } },
+      { "text": "필요한 말만 한다", "score": { "logical": 1, "independent": 1 } },
+      { "text": "상대가 먼저 오길 기다린다", "score": { "anxious": 2 } },
+      { "text": "혼자 해도 되지 않나 생각함", "score": { "independent": 2 } }
+    ]
+  },
+  {
+    "text": "스트레스를 받았을 때",
+    "options": [
+      { "text": "누군가에게 털어놓는다", "score": { "social": 2, "empathetic": 1 } },
+      { "text": "혼자 해결하려 한다", "score": { "independent": 2 } },
+      { "text": "짜증을 낸다", "score": { "aggressive": 2 } },
+      { "text": "계속 생각하며 불안해한다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "중요한 선택을 해야 할 때",
+    "options": [
+      { "text": "감정을 따른다", "score": { "empathetic": 2 } },
+      { "text": "논리적으로 판단한다", "score": { "logical": 2 } },
+      { "text": "다른 사람 의견을 듣는다", "score": { "social": 2 } },
+      { "text": "미루다가 결정한다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "친구가 고민 상담을 한다",
+    "options": [
+      { "text": "공감해준다", "score": { "empathetic": 2 } },
+      { "text": "해결책을 준다", "score": { "logical": 2 } },
+      { "text": "같이 욕해준다", "score": { "aggressive": 1, "social": 1 } },
+      { "text": "부담스럽다", "score": { "independent": 1, "anxious": 1 } }
+    ]
+  },
+
+  {
+    "text": "혼자 있는 시간이 많아지면",
+    "options": [
+      { "text": "편하다", "score": { "independent": 2 } },
+      { "text": "외롭다", "score": { "social": 2 } },
+      { "text": "별 생각 없다", "score": { "logical": 1 } },
+      { "text": "불안하다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "갈등 상황이 생기면",
+    "options": [
+      { "text": "피하려 한다", "score": { "anxious": 2 } },
+      { "text": "대화로 해결", "score": { "logical": 2 } },
+      { "text": "강하게 나간다", "score": { "aggressive": 2 } },
+      { "text": "상대 입장을 생각", "score": { "empathetic": 2 } }
+    ]
+  },
+  {
+    "text": "새로운 도전을 할 때",
+    "options": [
+      { "text": "설렌다", "score": { "social": 1, "independent": 1 } },
+      { "text": "계획부터 세운다", "score": { "logical": 2 } },
+      { "text": "망설인다", "score": { "anxious": 2 } },
+      { "text": "혼자 해본다", "score": { "independent": 2 } }
+    ]
+  },
+  {
+    "text": "친구들과 있을 때 나는",
+    "options": [
+      { "text": "분위기 메이커", "score": { "social": 2 } },
+      { "text": "조용히 듣는 편", "score": { "independent": 1 } },
+      { "text": "필요할 때만 말함", "score": { "logical": 1 } },
+      { "text": "눈치 많이 봄", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "누군가 나를 비판하면",
+    "options": [
+      { "text": "받아들인다", "score": { "logical": 2 } },
+      { "text": "상처받는다", "score": { "anxious": 2 } },
+      { "text": "반박한다", "score": { "aggressive": 2 } },
+      { "text": "이해하려 한다", "score": { "empathetic": 2 } }
+    ]
+  },
+
+  {
+    "text": "계획이 틀어지면",
+    "options": [
+      { "text": "유연하게 바꾼다", "score": { "logical": 1 } },
+      { "text": "짜증난다", "score": { "aggressive": 2 } },
+      { "text": "불안해진다", "score": { "anxious": 2 } },
+      { "text": "괜찮다", "score": { "independent": 1 } }
+    ]
+  },
+  {
+    "text": "새로운 사람을 만날 때",
+    "options": [
+      { "text": "기대된다", "score": { "social": 2 } },
+      { "text": "긴장된다", "score": { "anxious": 2 } },
+      { "text": "관찰한다", "score": { "logical": 1 } },
+      { "text": "굳이 필요없다", "score": { "independent": 2 } }
+    ]
+  },
+  {
+    "text": "내 감정 표현은",
+    "options": [
+      { "text": "솔직하다", "score": { "empathetic": 2 } },
+      { "text": "잘 숨긴다", "score": { "independent": 1 } },
+      { "text": "폭발한다", "score": { "aggressive": 2 } },
+      { "text": "혼란스럽다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "문제가 생겼을 때",
+    "options": [
+      { "text": "사람들과 해결", "score": { "social": 2 } },
+      { "text": "혼자 해결", "score": { "independent": 2 } },
+      { "text": "분석한다", "score": { "logical": 2 } },
+      { "text": "걱정부터 한다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "누군가 울고 있다",
+    "options": [
+      { "text": "위로한다", "score": { "empathetic": 2 } },
+      { "text": "이유를 묻는다", "score": { "logical": 1 } },
+      { "text": "어색하다", "score": { "anxious": 1 } },
+      { "text": "피한다", "score": { "independent": 2 } }
+    ]
+  },
+
+  {
+    "text": "경쟁 상황에서 나는",
+    "options": [
+      { "text": "열심히 한다", "score": { "logical": 1 } },
+      { "text": "이기고 싶다", "score": { "aggressive": 2 } },
+      { "text": "긴장된다", "score": { "anxious": 2 } },
+      { "text": "신경 안쓴다", "score": { "independent": 2 } }
+    ]
+  },
+  {
+    "text": "나의 인간관계는",
+    "options": [
+      { "text": "넓고 얕다", "score": { "social": 2 } },
+      { "text": "적지만 깊다", "score": { "independent": 2 } },
+      { "text": "상황에 따라 다름", "score": { "logical": 1 } },
+      { "text": "어렵다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "갑작스러운 변화가 생기면",
+    "options": [
+      { "text": "재밌다", "score": { "social": 1 } },
+      { "text": "계획 수정", "score": { "logical": 2 } },
+      { "text": "스트레스", "score": { "anxious": 2 } },
+      { "text": "혼자 적응", "score": { "independent": 2 } }
+    ]
+  },
+  {
+    "text": "누군가 나를 도와줬을 때",
+    "options": [
+      { "text": "고마움을 표현", "score": { "empathetic": 2 } },
+      { "text": "당연하게 느낌", "score": { "independent": 1 } },
+      { "text": "보답하려 한다", "score": { "social": 1 } },
+      { "text": "부담된다", "score": { "anxious": 2 } }
+    ]
+  },
+  {
+    "text": "내가 가장 중요하게 생각하는 것은",
+    "options": [
+      { "text": "사람", "score": { "empathetic": 2 } },
+      { "text": "효율", "score": { "logical": 2 } },
+      { "text": "자유", "score": { "independent": 2 } },
+      { "text": "안정", "score": { "anxious": 2 } }
+    ]
+  }
+]
